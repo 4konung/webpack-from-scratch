@@ -13,6 +13,12 @@
     "precommit": "npm run validate",
     "prepush": "npm run validate"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm validate",
+      "pre-push": "npm validate"
+    }
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
