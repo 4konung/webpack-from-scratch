@@ -13,8 +13,8 @@
   "husky": {
     "hooks": {
       "commit-msg": "echo $HUSKY_GIT_PARAMS",
-      "precommit": "npm run linter && npm run flow",
-      "prepush": "npm run linter && npm run flow"
+      "pre-commit": "npm run linter && npm run flow",
+      "pre-push": "npm run linter && npm run flow"
     }
   },
   "keywords": [],
