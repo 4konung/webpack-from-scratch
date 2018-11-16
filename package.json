@@ -10,13 +10,6 @@
     "dev": "webpack --mode development",
     "start": "webpack-dev-server --client-log-level warning --mode development --color --open --port 3000"
   },
-  "husky": {
-    "hooks": {
-      "commit-msg": "echo $HUSKY_GIT_PARAMS",
-      "pre-commit": "npm run linter && npm run flow",
-      "pre-push": "npm run linter && npm run flow"
-    }
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
