@@ -1,13 +1,8 @@
-// @flow
-import React, { PureComponent } from 'react';
+import React, { memo } from 'react';
+import HelloWorld from './components/HelloWorld';
 
-class App extends PureComponent<{}> {
-  console.log()
-  render() {
-    return (
-      <h1>hello world!</h1>
-    );
-  }
+function App() {
+  return <HelloWorld />;
 }
 
-export default App;
+export default memo(App);
